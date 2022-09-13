@@ -1,0 +1,255 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.clearfix{clear: both;}
+
+.header .slider{
+    background-image: url('../images/slider.jpg');
+    background-size: cover;
+    height: 500px;
+}
+.header .slider .cover-text{
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.header .slider .cover-text h2{
+    color: white;
+    margin: auto;
+    width: 475px;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px #000;
+    text-transform: uppercase;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.header .slider .cover-text button{
+    background: none;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border: 1.5px solid #fff;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+.header .navbar{
+    background-color: #252F31;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header .navbar h2 span{
+    color: #2DCC70;
+    text-transform: uppercase;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float:right;
+}
+.header .navbar ul li{
+    float: left;
+    color: white;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Spline Sans', sans-serif;
+}
+.header .navbar ul li.active-link a,
+.header .navbar ul li a:hover{
+    color: #2DCC70;
+}
+/* Start Features */
+
+.features{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.features .feature{
+    float: left;
+    width: 33.33333%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.features .feature h2{
+    color: #616A6D;
+}
+.features .feature p{
+    color: #818181;
+    line-height: 1.6;
+}
+
+/* End Features */
+
+/* Start About Me */
+
+.about-me{
+    background-color: #E2E2E2;
+    overflow: hidden;
+}
+.about-me .image {
+    float: left;
+    width: 40%;
+    display: flex;
+}
+.about-me .image img {width: 100%; height: 100%;}
+.about-me .info{
+    float: left;
+    width: 60%;
+    padding: 20px 0 0 40px;
+    box-sizing: border-box;
+}
+.about-me .info h2{
+    color: #3e4749;
+}
+.about-me .info p{
+    line-height: 1.7;
+    color: #696969;
+}
+.about-me .info .hobbies{
+    overflow: hidden;
+}
+.about-me .info .hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+.about-me .info .hobbies > div h3{
+    color: #3e4749;
+    display: inline-block;
+    padding-left: 5px;
+}
+.about-me .info .hobbies > div p{
+    color: #696969;
+    margin: 0;    
+}
+.about-me .info .hobbies > div .fas{
+    display: inline-block;
+    color: #2DCC70;
+}
+/* End About Me */
+
+/* Start My Skills */
+
+.my-skills{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my-skills .skills,
+.my-skills .progress{
+    width: 50%;
+    float: left;
+}
+
+/* End My Skills */
+
+/* Start Resume */
+
+.resume{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #E2E2E2;
+}
+
+/* End Resume */
+
+/* Start My Education */
+
+.my-education{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my-education .main,
+.my-education .exp{
+    width: 50%;
+    float: left;
+}
+
+/* End My Education */
+
+/* Start Personal */
+
+.personal{
+    background-color: #E2E2E2;
+    overflow: hidden;
+}
+.personal p{
+    text-align: center;
+}
+.personal h4{
+    text-align: center;
+}
+
+/* End Personal */
+
+/* Start Portfolio */
+
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portfolio h3 {
+    text-align: center;
+    color: #2b2e2e;
+}
+.portfolio p{
+    text-align: center;
+    color: #3d3d3d;
+}
+.portfolio .work{
+    overflow: hidden;
+}
+
+.portfolio .works > div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 15px;
+}
+.portfolio .works > div img{
+    width: 93%;
+}
+/* End Portfolio */
+
+/* Start Contact Me */
+
+.contact-me{
+    overflow: hidden;
+    background-color: #252F31;
+}
+.contact-me .info h3{
+    color: white;
+}
+.contact-me .info p{
+    color: #767777;
+}
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer{
+    background-color: #191E21;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #767777;
+}
+
+/* End Footer */
